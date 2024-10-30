@@ -14,7 +14,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #fff;
+    background-color: #8c52ff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -31,7 +31,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: #fff;
 }
 
 nav ul {
@@ -45,7 +45,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffff;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -63,19 +63,27 @@ main {
 .gallery-header {
     text-align: center;
     padding: 3rem 1rem;
-    background-color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//image/banner\ 2.jpg');
+    background-size: cover;
+    background-position: center;
     margin-bottom: 2rem;
 }
 
 .gallery-header h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #fff;
+    animation: fadeInUp 1s ease-out;
+}
+
+.span{
+    color: #8c52ff;
 }
 
 .gallery-header p {
     font-size: 1.2rem;
-    color: #666;
+    color: #fff;
+    animation: fadeInUp 1s ease-out 0.5s both;
 }
 
 /* Photo Gallery Styles */

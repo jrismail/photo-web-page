@@ -20,7 +20,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #fff;
+    background-color: #8c52ff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -37,7 +37,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: #fff;
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -63,7 +63,7 @@ nav ul li a.active {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/placeholder.svg?height=600&width=1200');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//image/ab1.jpg');
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -138,7 +138,7 @@ nav ul li a.active {
 
 .read-more {
     display: inline-block;
-    background-color: #ff6b6b;
+    background-color: #8c52ff;
     color: #fff;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -237,7 +237,7 @@ nav ul li a.active {
 /* Newsletter Section */
 .newsletter {
     padding: 5rem 0;
-    background-color: #ff6b6b;
+    background-color: #8c52ff;
     color: #fff;
     text-align: center;
 }
@@ -364,7 +364,7 @@ nav ul li a.active {
 /* CTA Section */
 .cta {
     padding: 5rem 0;
-    background-color: #333;
+    background-color: #8c52ff;
     color: #fff;
     text-align: center;
 }
