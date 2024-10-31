@@ -81,6 +81,10 @@ nav ul li a.active {
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease-out;
 }
+.span{
+    color: #8c52ff;
+    animation: fadeInUp 1.3s ease-out;
+}
 
 .hero p {
     font-size: 1.2rem;

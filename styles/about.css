@@ -253,7 +253,7 @@ nav ul li a.active {
 /* Join Us Section */
 .join-us {
     padding: 5rem 0;
-    background-color: #ff6b6b;
+    background-color: #8c52ff;
     color: #fff;
     text-align: center;
 }
@@ -285,7 +285,7 @@ nav ul li a.active {
 
 .cta-button.primary {
     background-color: #fff;
-    color: #ff6b6b;
+    color: #8c52ff;
 }
 
 .cta-button.secondary {
@@ -295,6 +295,7 @@ nav ul li a.active {
 }
 
 .cta-button:hover {
+    color: #ff6b6b;
     transform: translateY(-3px);
 }
 
